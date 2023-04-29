@@ -1,0 +1,115 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background: #000046;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1CB5E0, #020285);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1CB5E0, #020285);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: clamp(20px, 2vw, 20px) 20px 20px;
+}
+
+main {
+    transform: translateY(10%);
+}
+
+.container {
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: normal;
+    font-size: clamp(30px, 4vw, 40px);
+}
+
+.radio-group{
+    margin: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.radio-group input[type="radio"] {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.radio-group label {
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 300ms;
+}
+
+.radio-group label:hover {
+    transform: scale(1.1);
+}
+
+.radio-group label:nth-child(4) {/*Fontenay-en-Parisis pré checké à l'affichage*/
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: white;
+}
+
+.sectors input[type="text"]{
+    width: 100%;
+    padding: 5px 0 5px 20px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.25);
+    transition: transform 300ms;
+}
+
+.sectors input[type="text"]:focus{
+    outline: none;
+    transform: scale(1.1);
+}
+
+/*TABLE*/
+.sectors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sectors table {
+    border: 1px solid black;
+    opacity: 0;
+}
+
+.sectors table th, .sectors table td {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.sectors #sector-color {
+    color: white;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 540px) {
+
+    tbody tr td:nth-child(3), tbody tr td:nth-child(4),thead tr th:nth-child(3), thead tr th:nth-child(4) {
+        display: none;
+    }
+    }

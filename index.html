@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Sector</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts - "Hammersmith One" "Source Sans Pro" "Gothic A1" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Hammersmith+One&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>E-Sector</h1>
+            <div class="sectors">
+                <form>
+                    <div class="radio-group">
+                        <input type="radio" id="Goussainville" name="sectors" value="Goussainville" data-index="0">
+                        <label for="Goussainville" id="gouss">Goussainville</label>
+
+                        <input type="radio" id="Fontenay-en-Parisis" name="sectors" value="Fontenay-en-Parisis"
+                            data-index="1" checked>
+                        <label for="Fontenay-en-Parisis" id="fontenay">Fontenay-en-Parisis</label>
+
+                        <input type="radio" id="Le_Thillay" name="sectors" value="Le Thillay" data-index="2">
+                        <label for="Le_Thillay" id="thillay">Thillay</label>
+
+                        <input type="radio" id="Louvres" name="sectors" value="Louvres" data-index="3">
+                        <label for="Louvres" id="louvres">Louvres</label>
+                    </div>
+
+                    <input type="text" id="search" placeholder="Ex: Boulevard Roger Salengro" autocomplete="off">
+                </form>
+
+                <p id="search-result"></p>
+
+                <table>
+                    <thead>
+                        <!-- <tr>
+                            <th>Interval</th>
+                            <th>Rue</th>
+                            <th>Ville</th>
+                            <th>Secteur</th>
+                            <th>Négociateur</th>
+                        </tr> -->
+                    </thead>
+                    <tbody>
+                        <!-- <tr>
+                            <td>1 - 22</td>
+                            <td>boulevard Roger Salengro</td>
+                            <td>Goussainville</td>
+                            <td>Rose</td>
+                            <td>Loris</td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    
+    <script src="database.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
