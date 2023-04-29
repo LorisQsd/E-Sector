@@ -22,6 +22,9 @@ labels.forEach(label => {
                     } else if (label.getAttribute("id") === "thillay") {
                         dataArray = thillay
                         city = "Le Thillay"
+                    } else if (label.getAttribute("id") === "louvres") {
+                        dataArray = louvres
+                        city = "Louvres"
                     }
                     console.log(dataArray)
                     const labelIndex = input.getAttribute("data-index")
