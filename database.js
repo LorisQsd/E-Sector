@@ -330,16 +330,2615 @@ fontenay = [
 ]
 
 goussainville = [
+    //GV1
     {
-        streetName: "Secteur Le Thillay : En attente"
-    }
+        streetName: "impasse de la motte picquet",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue de la motte picquet",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "allée du jeu de paume",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue cambronne",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue mirabeau",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue de la convention",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "boulevard roger salengro",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue julian grimau",
+        streetInfo: {
+            interval: "61 à 76",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    //GV2
+    {
+        streetName: "avenue leclerc",
+        streetInfo: {
+            interval: "22 à 57",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "avenue des maronniers",
+        streetInfo: {
+            interval: "24 à 48",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue du château d'eau",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue de la paix",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue de la prévoyance",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "chemin des demoiselles",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue de l'aviation",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue jules vallès",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    //GV3
+    {
+        streetName: "rue saint-denis",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue roger gaston",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue baudun",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue clause debussy",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue du jura",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue des alpes",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue david hascal",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue henri fabre",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue david tabakoff",
+        streetInfo: {
+            interval: "1 à 55",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue boulevard raymond lefevre",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue eugène varlin",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    //GV4
+    {
+        streetName: "boulevard paul vaillant couturier",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "avenue des tilleuls",
+        streetInfo: {
+            interval: "1 à 72 & 113 à 131",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue de l'espérance",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue charles delescluze",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue de la bastille",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue philippe lebon",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue ampère",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue branly",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue pierre curie",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    //GV5
+    {
+        streetName: "rue des oiseaux",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue des bergeronettes",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue des merles",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue des bouvreuils",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue des mésanges",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue des fauvettes",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue des rouges gorges",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue des colibris",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue des pinsons",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue étienne dolet",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    //GV6
+    {
+        streetName: "rue du docteur roux",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue pierre lescaut",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue gambetta",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "avenue thiers",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "avenue de la source",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue marat",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue du docteur vaillant",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue fernand pelloutier",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue des peupliers",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue pétion",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "boulevard jules ferry",
+        streetInfo: {
+            interval: "1 à 16",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    //GV7
+    {
+        streetName: "rue alice",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue henriette",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue madeleine",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue eugène",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "rue georgette",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+
+    //GJ1
+    {
+        streetName: "avenue georges brassens",
+        streetInfo: {
+            interval: "1 à 35",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue des chênes",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue des amandiers",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue des platanes",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue camélinat",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "boulevard roger salengro",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue jacques brel",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue des acacias",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue des rosiers",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue gaston couté",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue paul lafargue",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue camille blanc",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    //GJ2
+    {
+        streetName: "rue daniel sorano",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue pablo picasso",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue marcel carné",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue michel simon",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue hélène boucher",
+        streetInfo: {
+            interval: "26 à 42",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue madeleine renaud",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    //GJ3
+    {
+        streetName: "rue de la plaine",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "boulevard des frères mongolfier",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "boulevard des buttes chaumont",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue danton",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue auguste blanqui",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue de l'échelle",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "boulevard de verdun",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue edmond chartrel",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue pierre semard",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue robert peltier",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue marie-rose madeline",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue armand deleuze",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue henri vuillemin",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue raoul rigault",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue nouvelle",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    //GJ4
+    {
+        streetName: "rue raspail",
+        streetInfo: {
+            interval: "1 à 20",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue david tabakoff",
+        streetInfo: {
+            interval: "57 à 95",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue boulevard raymond lefevre",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue eugène varlin",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "avenue de la renaissance",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue paul painlevé",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "boulevard paul vaillant couturier",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue des pierrots",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue emile combes",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue gounod",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    //GJ5
+    {
+        streetName: "rue/avenue jacques potel",
+        streetInfo: {
+            interval: "27 à 83",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue jean-gaston-rousseau",
+        streetInfo: {
+            interval: "21 à 58",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue des tulipes",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue des lilas",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue de liège",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue charles baudelaire",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue ronsard",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue pierre sarrazin",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue louise michel",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    //GJ6
+    {
+        streetName: "rue sieyès",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue jean jaurès",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue de varennes",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue louis blanc",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue des girondins",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue des jacobins",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue andré chénier",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue lavoisier",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue camille desmoulins",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue robespierre",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue vergniaud",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue barbaroux",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue roland",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    //GJ7
+    {
+        streetName: "boulevard du général de gaulle",
+        streetInfo: {
+            interval: "1 à 34",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "avenue des glycines",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue des pensées",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue raymond lapchin",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue des primevères",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue des bleuets",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue lucien roullier",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue des lys",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue gaston gressier",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    //GO1
+    {
+        streetName: "avenue georges brassens",
+        streetInfo: {
+            interval: "36 à 114",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue vincent scotto",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "allée lucienne delyle",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "allée joséphine baker",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "place sidney béchet",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "allée edith piaf",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue d'alembert",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "allée tino rossi",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue maurice chevalier",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    //GO2
+    {
+        streetName: "avenue des tilleuls",
+        streetInfo: {
+            interval: "73 à 112",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    //GO3
+    {
+        streetName: "avenue albert sarrault",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue de l'égalité",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue claude bernard",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue david wakx",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue de clignancourt",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue montaigne",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue gutenberg",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue maryse bastié",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue hélène boucher",
+        streetInfo: {
+            interval: "1 à 18",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    //GO4
+    {
+        streetName: "rue david hascal",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue henri fabre",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "boulevard paul vaillant couturier",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue ronsard",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue lucien mèche",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue simon bolivar",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue anatole france",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue corot",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    //GO5
+    {
+        streetName: "rue/avenue jacques potel",
+        streetInfo: {
+            interval: "1 à 25",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue jean-gaston-rousseau",
+        streetInfo: {
+            interval: "1 à 20",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "avenue de genève",
+        streetInfo: {
+            interval: "48 à 65",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "avenue de la haye",
+        streetInfo: {
+            interval: "50 à 66",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "avenue du docteur broquet",
+        streetInfo: {
+            interval: "27 à 45",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue parmentier",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue larousse",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue du docteur charcot",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue larousse",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "avenue marceau",
+        streetInfo: {
+            interval: "48 à 69",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "avenue hoche",
+        streetInfo: {
+            interval: "43 à 77",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "place victor hugo",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    //GO6
+    {
+        streetName: "boulevard jules ferry",
+        streetInfo: {
+            interval: "20 à 45",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue victor basch",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue ferdinand buisson",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue léon bourgeois",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue arago",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue de la montagne",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue de fleurus",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue cambacérès",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue rouget de lisle",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue lazare carnot",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue edouard vaillant",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "chemin de louvres",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    //GO7
+    {
+        streetName: "boulevard du général de gaulle",
+        streetInfo: {
+            interval: "35 à 58",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue du crould",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue des gardes",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue jean berthaud",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue mozart",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue beethoven",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue jean-sébastien bach",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    //GR1
+    {
+        streetName: "avenue albert sarrault",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue leclerc",
+        streetInfo: {
+            interval: "1 à 22",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue de l'union",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue de la liberté",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue des maronniers",
+        streetInfo: {
+            interval: "18 à 22",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue paul langevin",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue joliot curie",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue henri wallon",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "allée vincent van gogh",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    //GR2
+    {
+        streetName: "rue julian grimau",
+        streetInfo: {
+            interval: "1 à 60",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "boulevard henri dunant",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue violet",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "boulevard pasteur",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue camille pelletan",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue saint charles",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue des violettes",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue du cottage lafayette",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "boulevard marcel dassault",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue des marguerites",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue lacordaire",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue saint-charles",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    //GR3
+    {
+        streetName: "avenue de la renaissance",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue raspail",
+        streetInfo: {
+            interval: "21 à 46",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue des bois",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue des panoramas",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue jean goujon",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue clouet",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue bernard palissy",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue ramus",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue germain pilon",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue verlaine",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue du plateau",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue de la fraternité",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue arthur melin",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    //GR4
+    {
+        streetName: "boulevard roger salengro",
+        streetInfo: {
+            interval: "Vérifier numéro !",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue saint-just",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue de la république",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue ela constantinide",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue jules guesde",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue bir hakeim",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    //GR5
+    {
+        streetName: "rue jean-louis barrault",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue gérard philippe",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue romy schneider",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue greta carbo",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue jean vilar",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue grâce kelly",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue simone signoret",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue des demoiselles",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    //GR6
+    {
+        streetName: "avenue de genève",
+        streetInfo: {
+            interval: "1 à 47",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue de la haye",
+        streetInfo: {
+            interval: "1 à 49",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue du docteur broquet",
+        streetInfo: {
+            interval: "1 à 26",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue marceau",
+        streetInfo: {
+            interval: "1 à 47",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue hoche",
+        streetInfo: {
+            interval: "1 à 42",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue châteaubriand",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue buffon",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "square balzac",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "place de la république",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue albert sarrault",
+        streetInfo: {
+            interval: "Vérifier numéro ! ",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue diderot",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "square lamartine",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "allée des martyrs de la résistance",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue béranger",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue du 6 juin 1944",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    //GR7
+    {
+        streetName: "boulevard jules ferry",
+        streetInfo: {
+            interval: "46 à 102",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue séverine",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue de chantilly",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue armand carrel",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenuet des alouettes",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue des piverts",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue eugène pottier",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue des hirondelles",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue georges sand",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue jules verne",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "rue cyprien samson",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
 ]
 
 
 thillay = [
+    //TV1
     {
-        streetName: "Secteur Le Thillay : En attente"
-    }
+        streetName: "chemin de saint denis",
+        streetInfo: {
+            interval: "1 à 30",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "chemin des soeurs colombes",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "avenue des charmilles",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "avenue des fauvettes",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "avenue des aubépines",
+        streetInfo: {
+            interval: "11 à 31",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "avenue baudelaire",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "avenue alfred de musset",
+        streetInfo: {
+            interval: "9 à 44",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "avenue châteaubriand",
+        streetInfo: {
+            interval: "9 à 37",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "avenue balzac",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "avenue montaigne",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    //TV2
+    {
+        streetName: "avenue henri dunant",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "avenue du maréchal bessières",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    {
+        streetName: "allée du potager",
+        streetInfo: {
+            interval: "",
+            sector: "Vert",
+            nego: greenSector
+        },
+    },
+    //TJ1
+    {
+        streetName: "avenue pascal",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "avenue des lilas",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "avenue des roses",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "avenue des glycines",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "avenue des mimosas",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "avenue des violettes",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "avenue hoche",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "avenue voltaire",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "avenue pasteur",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    //TJ2
+    {
+        streetName: "rue des écoles",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "chemin des fromagers",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue du pont à l'huile",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "route de gonesse",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "allée du moutier",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "chemin du moulin à draps",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "allée des tournelles",
+        streetInfo: {
+            interval: "",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    {
+        streetName: "rue de paris",
+        streetInfo: {
+            interval: "1 à 12",
+            sector: "Jaune",
+            nego: yellowSector
+        },
+    },
+    //TO1
+    {
+        streetName: "rue de paris",
+        streetInfo: {
+            interval: "14 à 180",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "avenue châteaubriand",
+        streetInfo: {
+            interval: "1 à 8",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "avenue alfred de musset",
+        streetInfo: {
+            interval: "1 à 7",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "avenue des aubépines",
+        streetInfo: {
+            interval: "1 à 10",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue maurice berteaux",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    //TO2
+    {
+        streetName: "rue dame alice",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue de la vieille bauné",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "chemin des prieurs",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "chemin des courbéantes",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "avenue des tilleuls",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    {
+        streetName: "rue des marais",
+        streetInfo: {
+            interval: "",
+            sector: "Orange",
+            nego: orangeSector
+        },
+    },
+    //TR1
+    {
+        streetName: "chemin de saint denis",
+        streetInfo: {
+            interval: "31 à 81",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue guynemer",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue dellerose",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue paillard",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue bocquet",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "route de roissy",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue jeanne d'arc",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    //TR2
+    {
+        streetName: "avenue de l'orangerie",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue du lac",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue du moulin",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "avenue du château",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
+    {
+        streetName: "promenade du lac",
+        streetInfo: {
+            interval: "",
+            sector: "Rose",
+            nego: pinkSector
+        },
+    },
 ]
 
 louvres = [

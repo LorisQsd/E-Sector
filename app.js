@@ -1,14 +1,13 @@
 //RADIO BUTTONS
 const labels = document.querySelectorAll(".radio-group label");
 const inputs = document.querySelectorAll(".radio-group input");
-let dataArray = fontenay;
-let city = "Fontenay-en-Parisis";
+let dataArray = goussainville;
+let city = "Goussainville";
 
 labels.forEach(label => {
     label.addEventListener("click", handleSector)
 
     function handleSector(e) {
-
         inputs.forEach(input => {
             setTimeout(() => {
 
@@ -18,7 +17,7 @@ labels.forEach(label => {
                         city = "Fontenay-en-Parisis"
                     } else if (label.getAttribute("id") === "gouss") {
                         dataArray = goussainville
-                        city = "goussainville"
+                        city = "Goussainville"
                     } else if (label.getAttribute("id") === "thillay") {
                         dataArray = thillay
                         city = "Le Thillay"
@@ -26,7 +25,6 @@ labels.forEach(label => {
                         dataArray = louvres
                         city = "Louvres"
                     }
-                    console.log(dataArray)
                     const labelIndex = input.getAttribute("data-index")
                     labels.forEach(label => { label.style.background = "none"; label.style.color = "black" })
                     labels[labelIndex].style.background = "linear-gradient(to right, #0f0c29, #302b63, #24243e)"
@@ -54,7 +52,6 @@ let negoName = [];
 
 function filterData(e) {
     const searchedString = e.target.value.toLowerCase()
-
     if (e.target.value.length >= 3) {
 
         for (i = 0; i < dataArray.length; i++) {

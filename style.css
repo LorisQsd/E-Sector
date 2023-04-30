@@ -65,7 +65,7 @@ main {
     transform: scale(1.1);
 }
 
-.radio-group label:nth-child(4) {/*Fontenay-en-Parisis pré checké à l'affichage*/
+.radio-group label:nth-child(2) {/*Goussainville pré checké à l'affichage*/
     background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
     color: white;
 }
@@ -105,6 +105,10 @@ main {
 .sectors #sector-color {
     color: white;
     font-weight: 600;
+}
+
+tbody tr td:nth-child(2){
+    text-transform: capitalize;
 }
 
 @media screen and (max-width: 540px) {
