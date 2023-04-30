@@ -30,6 +30,7 @@ labels.forEach(label => {
                     labels[labelIndex].style.background = "linear-gradient(to right, #0f0c29, #302b63, #24243e)"
                     labels[labelIndex].style.color = "white"
 
+                    filterData();
                 }
             }, 10)// Je mets un settimeout pour éviter de récupérer l'input check trop vite. Ca permet de valider le check et ensuite de le récupérer. Sinon ça exec trop vite.
         })
@@ -50,10 +51,9 @@ let street = [];
 let sectorColor = [];
 let negoName = [];
 
-function filterData(e) {
-    const searchedString = e.target.value.toLowerCase()
-    if (e.target.value.length >= 3) {
-
+function filterData() {
+    const searchedString = searchInput.value.toLowerCase()
+    if (searchInput.value.length >= 3) {
         for (i = 0; i < dataArray.length; i++) {
             if (dataArray[i].streetName.match(searchedString)) {
                 streetInterval.push(dataArray[i].streetInfo.interval)

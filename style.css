@@ -20,7 +20,7 @@ body {
 }
 
 main {
-    transform: translateY(10%);
+    margin-top: 20px;
 }
 
 .container {
@@ -32,6 +32,9 @@ main {
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 20px;
+    background-image: url("LogoLaforet.png");
+    background-repeat: no-repeat;
+    background-size: clamp(200px, 25vw, 250px);
 }
 
 .container h1 {
@@ -71,12 +74,13 @@ main {
 }
 
 .sectors input[type="text"]{
-    width: 100%;
+    width: 90%;
     padding: 5px 0 5px 20px;
     border-radius: 10px;
     border-style: none;
     box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.25);
     transition: transform 300ms;
+    margin-top: 20px;
 }
 
 .sectors input[type="text"]:focus{
@@ -115,5 +119,9 @@ tbody tr td:nth-child(2){
 
     tbody tr td:nth-child(3), tbody tr td:nth-child(4),thead tr th:nth-child(3), thead tr th:nth-child(4) {
         display: none;
+    }
+    .container{
+        padding-top: 60px;
+        background-position-x: center;
     }
     }
