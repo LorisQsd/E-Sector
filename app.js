@@ -9,7 +9,14 @@ const table = document.querySelector("table");
 const resultMsg = document.querySelector("#search-result");
 
 // Variables
-let city = "goussainville";
+let cityJSON = "goussainville";
+let city = "Goussainville";
+const negos = {
+    pinkSector: "José",
+    greenSector: "Mélodie",
+    orangeSector: "A attribuer",
+    yellowSector: "Julian"
+};
 
 labels.forEach(label => {
     label.addEventListener("click", handleSector);
@@ -20,13 +27,17 @@ labels.forEach(label => {
 
                 if (input.checked) {
                     if (label.getAttribute("id") === "fontenay") {
-                        city = "fontenay";
+                        cityJSON = "fontenay";
+                        city = "Fontenay-en-Parisis";
                     } else if (label.getAttribute("id") === "gouss") {
-                        city = "goussainville";
+                        cityJSON = "goussainville";
+                        city = "Goussainville";
                     } else if (label.getAttribute("id") === "thillay") {
-                        city = "thillay";
+                        cityJSON = "thillay";
+                        city = "Le Thillay";
                     } else if (label.getAttribute("id") === "louvres") {
-                        city = "louvres";
+                        cityJSON = "louvres";
+                        city = "Louvres";
                     }
                     const labelIndex = input.getAttribute("data-index");
                     labels.forEach(label => { label.style.background = "none"; label.style.color = "black"; });
@@ -34,12 +45,9 @@ labels.forEach(label => {
                     labels[labelIndex].style.color = "white";
 
                     if(searchInput.value.length >= 3) {
-                        filterData(city);
+                        filterData(cityJSON);
                     } else {
-                        thead.textContent = "";
-                        tbody.textContent = "";
-                        resultMsg.textContent = "";
-                        table.style.opacity = "0";
+                        clearTable();
                     }
                 }
             }, 10);// Je mets un settimeout pour éviter de récupérer l'input check trop vite. Ca permet de valider le check et ensuite de le récupérer. Sinon ça exec trop vite.
@@ -48,11 +56,10 @@ labels.forEach(label => {
     }
 });
 
-searchInput.addEventListener("input", () => {filterData(city);});
+searchInput.addEventListener("input", () => {filterData(cityJSON);});
 
 async function filterData(cityName) {
     const searchedString = searchInput.value.toLowerCase();
-    console.log(searchedString);
     if (searchedString.length >= 3){
         try {
             const response = await fetch('./data/'+ cityName +'.json');
@@ -63,7 +70,8 @@ async function filterData(cityName) {
             const result = data.filter(city => city.streetName.includes(searchedString));
 
             if(result.length){
-                resultMsg.textContent = "Nombre de résultat : " + result.length;
+                resultMsg.textContent = "Nombre de" + result.length > 1 ? "résultats:" : "résultat:" + result.length;
+                resultMsg.textContent = `Nombre de ${result.length > 1 ? "résultats" : "résultat"}: ${result.length}`;
                 table.style.opacity = "1";
                 thead.textContent = "";
                 tbody.textContent = "";
@@ -82,7 +90,6 @@ async function filterData(cityName) {
 
 //FILL TABLE
 function createTr(obj) {
-// function createTr(streetInterval, street, sectorColor, negoName) {
     thead.insertAdjacentHTML("afterbegin", `
         <tr>
             <th>Interval</th>
@@ -94,31 +101,18 @@ function createTr(obj) {
         </tr>
         `);
     obj.forEach(result => {
-
-
+        console.log(result.streetInfo.interval.length);
 
         tbody.insertAdjacentHTML("afterbegin", `
         <tr>
             <td>${result.streetInfo.interval}</td>
             <td>${result.streetName}</td>
-            <td>${city}</td>
-            <td id="sector-color" data-color="${result.streetInfo.sector}"></td>
-            <td>${result.streetInfo.nego}</td>
+            <td>${cityJSON}</td>
+            <td class="sector-color" id="sector-color" data-color="${result.streetInfo.sector.toLowerCase()}"></td>
+            <td>${negos[result.streetInfo.nego]}</td>
             <td><a href="https://www.google.fr/maps/place/${result.streetName}+${city}" target="_blank">Visualiser</a></td>
         </tr>
         `);
-
-        const changeSectorColor = document.querySelector("#sector-color");
-        if (changeSectorColor.getAttribute("data-color") === "Vert") {
-            changeSectorColor.style.background = "rgb(6, 163, 6)";
-        } else if (changeSectorColor.getAttribute("data-color") === "Jaune") {
-            changeSectorColor.style.background = "rgb(223, 223, 22)";
-            changeSectorColor.style.color = "black";
-        } else if (changeSectorColor.getAttribute("data-color") === "Rose") {
-            changeSectorColor.style.background = "rgb(207, 144, 154)";
-        } else if (changeSectorColor.getAttribute("data-color") === "Orange"){
-            changeSectorColor.style.background = "orange";
-        }
     });
 }
 

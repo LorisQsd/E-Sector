@@ -19,6 +19,24 @@ body {
     padding: clamp(20px, 2vw, 20px) 20px 20px;
 }
 
+/* COLORS */
+.sector-color[data-color="rose"]{
+    background-color: #cf909a;
+}
+
+.sector-color[data-color="vert"]{
+    background-color: #06a306;
+}
+
+.sector-color[data-color="jaune"]{
+    background-color: #dfdf16;
+    color: black;
+}
+
+.sector-color[data-color="orange"]{
+    background-color: #ffa500;
+}
+
 main {
     margin-top: 20px;
 }
