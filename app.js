@@ -107,7 +107,7 @@ function createTr(obj) {
         <tr>
             <td>${result.streetInfo.interval}</td>
             <td>${result.streetName}</td>
-            <td>${cityJSON}</td>
+            <td>${city}</td>
             <td class="sector-color" id="sector-color" data-color="${result.streetInfo.sector.toLowerCase()}"></td>
             <td>${negos[result.streetInfo.nego]}</td>
             <td><a href="https://www.google.fr/maps/place/${result.streetName}+${city}" target="_blank">Visualiser</a></td>
