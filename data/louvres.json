@@ -1,0 +1,922 @@
+[
+    {
+        "streetName": "avenue de bruxelles",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "rue de lisbonne",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "square de madrid",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "rue de rome",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "rue de dublin",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue des tilleuls",
+        "streetInfo": {
+            "interval": "10 à 25",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue des paquerettes",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue beauséjour",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue de bel air",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue du maréchal de lattre",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue du général leclerc",
+        "streetInfo": {
+            "interval": "1 à 28",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "rue de paris",
+        "streetInfo": {
+            "interval": "1 à 12 & 125 à 157",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "square de deauville",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "square de chambéry",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue des alpes",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "square d'annecy",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "square de megève",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "square de vercors",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "square de briançon",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "square de villard de lans",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "square de chamonix",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "square de grenoble",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue île de france",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "square de rambouillet",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "square de chantilly",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "square de fontainebleau",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue de la vieille france",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "rue d'orville",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "rue des carquais",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "rue demaison",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "rue du milton",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue charles de gaulle",
+        "streetInfo": {
+            "interval": "40 à 71",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue de verdun",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue de sobernheim",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "place de sobernheim",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue jules fossier",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue roger tort",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue victor baron",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue du château d'eau",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue de bonn",
+        "streetInfo": {
+            "interval": "28 à 111",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue jean monnet",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "place jean monnet",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue robert schuman",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue auguste duchon",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue georges sainte-beuve",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue des acacias",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue de la tour",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "avenue du val de loire",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "square d'orléans",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "square de tours",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "square de chambord",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "square de blois",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "square de cheverny",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "square d'amboise",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue du marché",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue robert demoy",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue du docteur paul bruel",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue aux blés",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue saint-justin",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue des 2 églises",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue aux prêtres",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue de paris",
+        "streetInfo": {
+            "interval": "47 à 78",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "avenue charles de gaulle",
+        "streetInfo": {
+            "interval": "1 à 40",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "rue roger dollé",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "avenue des tilleuls",
+        "streetInfo": {
+            "interval": "1 à 9",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "rue pasteur",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "rue branly",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "rue Lavoisier",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "rue pascal",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "rue pierre et marie curie",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "rue des marlots",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "rue andré malraux",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "rue du ronce",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "résidence andré malraux",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "avenue du roussillon",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "square de port bou",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "square de banyuls",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "square de toulon",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "square de perpignan",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "square font-romeu",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "square de prades",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "square de mont louis",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "square de port-vendres",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "square de cherbourg",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "rue victor hugo",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "rue/square lamartine",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "avenue de londres",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "rue de bonn",
+        "streetInfo": {
+            "interval": "1 à 27",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "rue d'athènes",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "rue de la haye",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "impasse de bonn",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "square de rouen",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "avenue de provence",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "square de nice",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "square de cagnes",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "square de menton",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "square de vallauris",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "square de draguignan",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "square de provence",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "square de nîmes",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "square de vence",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "rue charles péguy",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "rue du 11 novembre",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "impasse du 11 novembre",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "rue du bouteiller",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "impasse du bouteiller",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "rue croix jeanne maligne",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "rue de paris",
+        "streetInfo": {
+            "interval": "31 à 45",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "rue de villeron",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "impasse de villeron",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "impasse du champ des oiseaux",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "rue vitelle",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "impasse vitelle",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "rue de chennevières",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "rue du docteur mallein-gérin",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    }
+]

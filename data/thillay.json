@@ -1,0 +1,426 @@
+[
+    {
+        "streetName": "chemin de saint denis",
+        "streetInfo": {
+            "interval": "1 à 30",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "chemin des soeurs colombes",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue des charmilles",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue des fauvettes",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue des aubépines",
+        "streetInfo": {
+            "interval": "11 à 31",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue baudelaire",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue alfred de musset",
+        "streetInfo": {
+            "interval": "9 à 44",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue châteaubriand",
+        "streetInfo": {
+            "interval": "9 à 37",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue balzac",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue montaigne",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue henri dunant",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue du maréchal bessières",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "allée du potager",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Vert",
+            "nego": "greenSector"
+        }
+    },
+    {
+        "streetName": "avenue pascal",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "avenue des lilas",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "avenue des roses",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "avenue des glycines",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "avenue des mimosas",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "avenue des violettes",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "avenue hoche",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "avenue voltaire",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "avenue pasteur",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue des écoles",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "chemin des fromagers",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue du pont à l'huile",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "route de gonesse",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "allée du moutier",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "chemin du moulin à draps",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "allée des tournelles",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue de paris",
+        "streetInfo": {
+            "interval": "1 à 12",
+            "sector": "Jaune",
+            "nego": "yellowSector"
+        }
+    },
+    {
+        "streetName": "rue de paris",
+        "streetInfo": {
+            "interval": "14 à 180",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "avenue châteaubriand",
+        "streetInfo": {
+            "interval": "1 à 8",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "avenue alfred de musset",
+        "streetInfo": {
+            "interval": "1 à 7",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "avenue des aubépines",
+        "streetInfo": {
+            "interval": "1 à 10",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "rue maurice berteaux",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "rue dame alice",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "rue de la vieille bauné",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "chemin des prieurs",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "chemin des courbéantes",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "avenue des tilleuls",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "rue des marais",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Orange",
+            "nego": "orangeSector"
+        }
+    },
+    {
+        "streetName": "chemin de saint denis",
+        "streetInfo": {
+            "interval": "31 à 81",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "avenue guynemer",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "avenue dellerose",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "avenue paillard",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "avenue bocquet",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "route de roissy",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "avenue jeanne d'arc",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "avenue de l'orangerie",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "avenue du lac",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "avenue du moulin",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "avenue du château",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    },
+    {
+        "streetName": "promenade du lac",
+        "streetInfo": {
+            "interval": "",
+            "sector": "Rose",
+            "nego": "pinkSector"
+        }
+    }
+]
