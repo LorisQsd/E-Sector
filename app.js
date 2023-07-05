@@ -91,9 +91,13 @@ async function filterData(cityName) {
 
 //FILL TABLE
 function createTr(obj) {
+    const isInterval = obj.map(el => el.streetInfo.interval).join("").length;
+    // Je map à travers les interval de mon objet. Je rassemble tout et je compte le nombre de caractère.
+    // Permet de vérifier s'il y a au moins un interval pour afficher ou non <th> et <td>
+
     thead.insertAdjacentHTML("afterbegin", `
         <tr>
-            <th>Interval</th>
+            ${isInterval ? `<th>Interval</th>`: ""}
             <th>Rue</th>
             <th>Ville</th>
             <th>Secteur</th>
@@ -102,11 +106,9 @@ function createTr(obj) {
         </tr>
         `);
     obj.forEach(result => {
-        console.log(result.streetInfo.interval.length);
-
         tbody.insertAdjacentHTML("afterbegin", `
         <tr>
-            <td>${result.streetInfo.interval}</td>
+            ${isInterval ? `<td>${result.streetInfo.interval}</td>`: ""}
             <td>${result.streetName}</td>
             <td>${city}</td>
             <td class="sector-color" id="sector-color" data-color="${result.streetInfo.sector.toLowerCase()}"></td>
