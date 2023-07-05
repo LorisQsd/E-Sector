@@ -40,9 +40,10 @@ labels.forEach(label => {
                         city = "Louvres";
                     }
                     const labelIndex = input.getAttribute("data-index");
-                    labels.forEach(label => { label.style.background = "none"; label.style.color = "black"; });
-                    labels[labelIndex].style.background = "linear-gradient(to right, #0f0c29, #302b63, #24243e)";
-                    labels[labelIndex].style.color = "white";
+                    labels.forEach(label => { label.classList.remove("active");});
+                    // labels[labelIndex].style.background = "linear-gradient(to right, #0f0c29, #302b63, #24243e)";
+                    // labels[labelIndex].style.color = "white";
+                    labels[labelIndex].classList.add("active");
 
                     if(searchInput.value.length >= 3) {
                         filterData(cityJSON);
@@ -110,7 +111,7 @@ function createTr(obj) {
             <td>${city}</td>
             <td class="sector-color" id="sector-color" data-color="${result.streetInfo.sector.toLowerCase()}"></td>
             <td>${negos[result.streetInfo.nego]}</td>
-            <td><a href="https://www.google.fr/maps/place/${result.streetName}+${city}" target="_blank">Visualiser</a></td>
+            <td><a title="Cliquez pour voir la géolocalisation" class="table--link" href="https://www.google.fr/maps/place/${result.streetName}+${city}" target="_blank"><i class="bi bi-geo-alt-fill"></i> Visualiser</a></td>
         </tr>
         `);
     });
@@ -122,3 +123,5 @@ function clearTable(){
     resultMsg.textContent = "";
     table.style.opacity = "0";
 }
+
+document.querySelector("form").addEventListener("submit", function (e) {e.preventDefault();});

@@ -37,6 +37,13 @@ body {
     background-color: #ffa500;
 }
 
+.active {
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.25);
+}
+
 main {
     margin-top: 20px;
 }
@@ -83,15 +90,12 @@ main {
 }
 
 .radio-group label:hover {
-    transform: scale(1.1);
-}
-
-.radio-group label:nth-child(2) {/*Goussainville pré checké à l'affichage*/
     background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
     color: white;
 }
 
 .sectors input[type="text"]{
+    font-size: 1.1rem;
     width: 90%;
     padding: 5px 0 5px 20px;
     border-radius: 10px;
@@ -103,7 +107,7 @@ main {
 
 .sectors input[type="text"]:focus{
     outline: none;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 /*TABLE*/
@@ -133,9 +137,18 @@ tbody tr td:nth-child(2){
     text-transform: capitalize;
 }
 
-@media screen and (max-width: 540px) {
+.table--link {
+    color: #000046;
+    font-weight: bold;
+    text-decoration: none;
+}
 
-    tbody tr td:nth-child(3), tbody tr td:nth-child(4),thead tr th:nth-child(3), thead tr th:nth-child(4) {
+@media screen and (max-width: 540px) {
+    .radio-group{
+        gap: 0.5rem;
+    }
+    tbody tr td:nth-child(1), tbody tr td:nth-child(3), tbody tr td:nth-child(4),
+    thead tr th:nth-child(1), thead tr th:nth-child(3), thead tr th:nth-child(4) {
         display: none;
     }
     .container{
