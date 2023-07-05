@@ -1,7 +1,7 @@
 //SECTORS
 const greenSector = "Mélodie";
 const pinkSector = "José";
-const orangeSector = "Céline";
+const orangeSector = "A attribuer";
 const yellowSector = "Julian";
 
 fontenay = [
@@ -2448,7 +2448,7 @@ goussainville = [
         },
     },
     {
-        streetName: "avenuet des alouettes",
+        streetName: "avenue des alouettes",
         streetInfo: {
             interval: "",
             sector: "Rose",

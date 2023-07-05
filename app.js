@@ -98,6 +98,7 @@ function createTr(streetInterval, street, sectorColor, negoName) {
             <th>Ville</th>
             <th>Secteur</th>
             <th>Négociateur</th>
+            <th>Google Map</th>
         </tr>
         `)
 
@@ -109,6 +110,7 @@ function createTr(streetInterval, street, sectorColor, negoName) {
             <td>${city}</td>
             <td id="sector-color">${sectorColor[i]}</td>
             <td>${negoName[i]}</td>
+            <td><a href="https://www.google.fr/maps/place/${street[i]}+${city}" target="_blank">Visualiser</a></td>
         </tr>
         `)
 
@@ -125,3 +127,5 @@ function createTr(streetInterval, street, sectorColor, negoName) {
         }
     }
 }
+
+// https://www.google.fr/maps/place/5+Av.+Ch%C3%A2teaubriand,+95190+Goussainville/
