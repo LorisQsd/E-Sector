@@ -97,23 +97,23 @@ function createTr(obj) {
 
     thead.insertAdjacentHTML("afterbegin", `
         <tr>
-            ${isInterval ? `<th>Interval</th>`: ""}
-            <th>Rue</th>
-            <th>Ville</th>
-            <th>Secteur</th>
-            <th>Négociateur</th>
-            <th>Google Map</th>
+            ${isInterval ? `<th class="th--interval">Interval</th>`: ""}
+            <th class="th--street">Rue</th>
+            <th class="th--city">Ville</th>
+            <th class="th--sector">Secteur</th>
+            <th class="th--nego">Négociateur</th>
+            <th class="th--gmap">Google Map</th>
         </tr>
         `);
     obj.forEach(result => {
         tbody.insertAdjacentHTML("afterbegin", `
         <tr>
-            ${isInterval ? `<td>${result.streetInfo.interval}</td>`: ""}
-            <td>${result.streetName}</td>
-            <td>${city}</td>
-            <td class="sector-color" id="sector-color" data-color="${result.streetInfo.sector.toLowerCase()}"></td>
-            <td>${negos[result.streetInfo.nego]}</td>
-            <td><a title="Cliquez pour voir la géolocalisation" class="table--link" href="https://www.google.fr/maps/place/${result.streetName}+${city}" target="_blank"><i class="bi bi-geo-alt-fill"></i> Visualiser</a></td>
+            ${isInterval ? `<td class="td--interval">${result.streetInfo.interval}</td>`: ""}
+            <td class="td--street">${result.streetName}</td>
+            <td class="td--interval">${city}</td>
+            <td class="td--sector" id="sector-color" data-color="${result.streetInfo.sector.toLowerCase()}"></td>
+            <td class="td--nego">${negos[result.streetInfo.nego]}</td>
+            <td><a title="Cliquez pour voir la géolocalisation" class="td--gmap" href="https://www.google.fr/maps/place/${result.streetName}+${city}" target="_blank"><i class="bi bi-geo-alt-fill"></i> Visualiser</a></td>
         </tr>
         `);
     });
