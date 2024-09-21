@@ -1,18 +1,17 @@
 {
-    "env": {
-      "browser": true,
-      "es6": true,
-      "node": true
-    },
-    "parserOptions": {
-      "ecmaVersion": 2022
-    },
-    "extends": "eslint:recommended",
-    "rules": {
-      "indent": ["error", 4],
-      "semi": ["error", "always"],
-      "no-multi-spaces": "error",
-      "no-trailing-spaces": "error",
-      "eol-last": "error"
-    }
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2022
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "semi": ["error", "always"],
+    "no-multi-spaces": "error",
+    "no-trailing-spaces": "error",
+    "eol-last": "error"
   }
+}
